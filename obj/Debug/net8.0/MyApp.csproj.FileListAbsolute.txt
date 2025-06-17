@@ -7,6 +7,7 @@ C:\Dev\MyApp\obj\Debug\net8.0\MyApp.GeneratedMSBuildEditorConfig.editorconfig
 C:\Dev\MyApp\obj\Debug\net8.0\MyApp.AssemblyInfoInputs.cache
 C:\Dev\MyApp\obj\Debug\net8.0\MyApp.AssemblyInfo.cs
 C:\Dev\MyApp\obj\Debug\net8.0\MyApp.csproj.CoreCompileInputs.cache
+C:\Dev\MyApp\obj\Debug\net8.0\MyApp.sourcelink.json
 C:\Dev\MyApp\obj\Debug\net8.0\MyApp.dll
 C:\Dev\MyApp\obj\Debug\net8.0\refint\MyApp.dll
 C:\Dev\MyApp\obj\Debug\net8.0\MyApp.pdb
