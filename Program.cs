@@ -34,6 +34,9 @@ class Program
                 case 4:
                     Calculos.Multiplicacao(numeroUm, numeroDois);
                     break;
+                default:
+                    Console.WriteLine("Opção não encontrada!");
+                    break;
             }
             Console.WriteLine("Digite a opção que deseja.");
             numeroDaOpcao = int.Parse(Console.ReadLine());
