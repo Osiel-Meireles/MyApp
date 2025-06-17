@@ -23,16 +23,16 @@ class Program
             switch (numeroDaOpcao)
             {
                 case 1:
-                    Console.WriteLine(numeroUm + " + " + numeroDois + " = " + Calculos.Soma(numeroUm, numeroDois));
+                    Calculos.Soma(numeroUm, numeroDois);
                     break;
                 case 2:
-                    Console.WriteLine(numeroUm + " - " + numeroDois + " = " + Calculos.Substracao(numeroUm, numeroDois));
+                    Calculos.Subtracao(numeroUm, numeroDois);
                     break;
                 case 3:
-                    Console.WriteLine(numeroUm + " / " + numeroDois + " = " + Calculos.Divisao(numeroUm, numeroDois));
+                    Calculos.Divisao(numeroUm, numeroDois);
                     break;
                 case 4:
-                    Console.WriteLine(numeroUm + " * " + numeroDois + " = " + Calculos.Multiplicacao(numeroUm, numeroDois));
+                    Calculos.Multiplicacao(numeroUm, numeroDois);
                     break;
             }
             Console.WriteLine("Digite a opção que deseja.");
