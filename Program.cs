@@ -1,4 +1,7 @@
-﻿namespace MyApp;
+﻿using MyApp.Models;
+using MyApp.Utils;
+
+namespace MyApp;
 
 class Program
 {
