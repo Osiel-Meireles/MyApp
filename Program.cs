@@ -5,7 +5,7 @@ class Program
     static void Main(string[] args)
     {
         Console.Clear();
-        TextAssets.TextWelcome();
+        TextAssets.TextAppStart();
         TextAssets.TextTypeNumberOne();
         double numeroUm = double.Parse(Console.ReadLine());
         TextAssets.TextTypeNumberTwo();
@@ -53,6 +53,6 @@ class Program
 
             }
         }
-        Console.WriteLine("Obrigado por usar a calculadora.");
+        TextAssets.TextAppFinish();
     }
 }

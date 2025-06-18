@@ -1,6 +1,6 @@
 class TextAssets
 {
-    public static void TextWelcome()
+    public static void TextAppStart()
     {
         Console.WriteLine("Seja bem vindo à Calculadora!");
         Console.WriteLine("Você precisará de dois números para fazer uma operação.");
@@ -34,5 +34,23 @@ class TextAssets
         Console.WriteLine("");
         Console.WriteLine("Deseja fazer mais uma operação?");
         Console.WriteLine("Digite 'S' para SIM ou 'N' para NÃO");
+    }
+
+    public static void TextAppFinish()
+    {
+        Console.WriteLine("");
+        Console.WriteLine("Obrigado por usar a calculadora!");
+        Console.WriteLine("Console App desenvolvido por");
+        Console.WriteLine($@"
+  ___      _      _                 
+ / _ \ ___(_) ___| |                
+| | | / __| |/ _ \ |                
+| |_| \__ \ |  __/ |                
+ \___/|___/_|\___|_|    _           
+|  \/  | ___(_)_ __ ___| | ___  ___ 
+| |\/| |/ _ \ | '__/ _ \ |/ _ \/ __|
+| |  | |  __/ | | |  __/ |  __/\__ \
+|_|  |_|\___|_|_|  \___|_|\___||___/
+        ");
     }
 }
